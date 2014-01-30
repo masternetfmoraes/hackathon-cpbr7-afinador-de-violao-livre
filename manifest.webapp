@@ -15,6 +15,9 @@
   "installs_allowed_from": ["*"],
   "default_locale": "pt-BR",
   "locales":{
-    "name":"free guitar tuner",
-    "description":"simple app to help tune guitars"
+    "en":{
+        "name":"free guitar tuner",
+        "description":"simple app to help tune guitars"
+     }
+}
 }
