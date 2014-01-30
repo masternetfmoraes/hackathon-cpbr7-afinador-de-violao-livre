@@ -1,0 +1,16 @@
+li {
+display:block;
+width:100%;
+padding-top:1em;
+padding-bottom:1em;
+text-align:center;
+vertical-align:middle;
+font-size:150%;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+border-bottom:1px solid #B8B8E6;
+text-shadow:2px 2px #CBCBEC
+}
+li:active{
+background-color:#CBCBEC;
+text-shadow:2px 2px #A2A2BD;
+}

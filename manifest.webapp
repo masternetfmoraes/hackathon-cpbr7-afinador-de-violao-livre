@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "name": "Afinador de violão livre",
+  "description": "Aplicação simples que te ajuda a afinar seu violão",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/Afinador-16.png",
+    "48": "/img/icons/Afinador-48.png",
+    "128": "/img/icons/Afinador-128.png"
+  },
+  "developer": {
+    "name": "Lucas Silva Schanner"
+    
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "default_locale": "pt_BR"
+}
