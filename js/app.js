@@ -4,12 +4,7 @@ if(installBtn) {
     
     installBtn.style.display = 'none';
     
-    // If you want an installation button, add this to your HTML:
-    //
-    // <button id="install-btn">Install</button>
-    //
-    // This code shows the button if the apps platform is available
-    // and this app isn't already installed.
+    // planejo fazer desse botão um link para o app no marketplace assim que for aprovado.
     if(navigator.mozApps) {
 
         installBtn.addEventListener('click', function() {
