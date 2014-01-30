@@ -4,7 +4,7 @@ if(installBtn) {
     
     installBtn.style.display = 'none';
     
-    // planejo fazer desse botão um link para o app no marketplace assim que for aprovado.
+    // Essa parte só funcionará quando hospedar o app em um servidor remoto.
     if(navigator.mozApps) {
 
         installBtn.addEventListener('click', function() {
