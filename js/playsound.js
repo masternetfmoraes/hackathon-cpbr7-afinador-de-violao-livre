@@ -1,5 +1,5 @@
 //Carrega anteriormente todos os recursos
- resUrls = ['sound-res/corda1.ogg','sound-res/corda2.ogg','sound-res/corda3.ogg','sound-res/corda4.ogg','sound-res/corda5.ogg','sound-res/corda7.ogg'];
+ resUrls = ['sound-res/corda1.ogg','sound-res/corda2.ogg','sound-res/corda3.ogg','sound-res/corda4.ogg','sound-res/corda5.ogg','sound-res/corda6.ogg'];
 var audioCollection = {};
 function loadsounds(){
 	for(url in resUrls){
