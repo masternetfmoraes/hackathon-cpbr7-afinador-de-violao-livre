@@ -1,4 +1,5 @@
-li {
+li.cordas {
+
 display:block;
 width:100%;
 padding-top:1em;
@@ -6,11 +7,13 @@ padding-bottom:1em;
 text-align:center;
 vertical-align:middle;
 font-size:150%;
-font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+font-family: "Avant Garde" , "Century Gothic", "AppleGothic", sans-serif;
 border-bottom:1px solid #B8B8E6;
-text-shadow:2px 2px #CBCBEC
+text-shadow:2px 2px #CBCBEC;
+transition:background-color 0.5s;
 }
-li:active{
+
+li.cordas:active{
 background-color:#CBCBEC;
 text-shadow:2px 2px #A2A2BD;
 }
