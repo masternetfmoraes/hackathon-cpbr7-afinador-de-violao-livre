@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "name": "Afinador de violão livre",
   "description": "Aplicação simples que te ajuda a afinar seu violão",
   "launch_path": "/index.html",

@@ -10,7 +10,7 @@ font-size:150%;
 font-family: "Avant Garde" , "Century Gothic", "AppleGothic", sans-serif;
 border-bottom:1px solid #B8B8E6;
 text-shadow:2px 2px #CBCBEC;
-transition:background-color 0.5s;
+transition:background-color 0.1s;
 }
 
 li.cordas:active{
