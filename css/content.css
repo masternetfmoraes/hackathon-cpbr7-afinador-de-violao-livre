@@ -1,19 +1,39 @@
 li.cordas {
 
-display:block;
-width:100%;
+display:inline-block;
+width:15%;
 padding-top:1em;
 padding-bottom:1em;
 text-align:center;
 vertical-align:middle;
-font-size:150%;
+font-size:100%;
 font-family: "Avant Garde" , "Century Gothic", "AppleGothic", sans-serif;
 border-bottom:1px solid #B8B8E6;
 text-shadow:2px 2px #CBCBEC;
-transition:background-color 0.1s;
+transition:background-color 0.5s;
 }
 
 li.cordas:active{
 background-color:#CBCBEC;
 text-shadow:2px 2px #A2A2BD;
 }
+
+button#play{
+display:inline-block;
+padding:0.5em;
+height:40%;
+vertical-align:middle;
+border:1px solid #B8B8E6;
+margin-top:10%;
+margin-bottom:10%;
+}
+button#play:active{
+background-color:#CBCBEC
+}
+button#repeat{
+transition:background-color 0.5s;
+} span{
+ font-family: "Avant Garde" , "Century Gothic", "AppleGothic", sans-serif;
+text-shadow:1px 1px #A2A2BD;
+font-size:1.2em;
+}		

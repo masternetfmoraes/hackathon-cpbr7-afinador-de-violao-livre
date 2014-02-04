@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "2.0",
   "name": "Afinador de violão livre",
   "description": "Aplicação simples que te ajuda a afinar seu violão",
   "launch_path": "/index.html",
@@ -18,7 +18,12 @@
   "locales":{
     "en":{
         "name":"free guitar tuner",
-        "description":"simple app to help tune guitars"
-     }
+        "description":"simple app to help tune guitars",
+	"launch_path":"/index_en.html",
+     },
+    "es":{
+	"name":"Afinador de Guitarra libre",
+        "launch_path":"/index_en.html"
+     }	
 }
 }
