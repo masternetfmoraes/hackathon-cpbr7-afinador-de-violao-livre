@@ -19,7 +19,7 @@
     "en":{
         "name":"free guitar tuner",
         "description":"simple app to help tune guitars",
-	"launch_path":"/index_en.html",
+	"launch_path":"/index_en.html"
      },
     "es":{
 	"name":"Afinador de Guitarra libre",
