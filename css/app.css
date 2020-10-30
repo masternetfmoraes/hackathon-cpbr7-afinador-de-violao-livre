@@ -12,7 +12,6 @@ body {
     font-family: sans-serif;
     line-height: 1.6;
     background: #fefefe;
-
 }
 
 h1 {
@@ -27,7 +26,7 @@ h1 {
 #content {
     border-top: 1px solid #993;
     padding: 1rem 0.5rem;
-    text-align:center;
+    text-align: center;
 }
 
 p {
@@ -35,7 +34,7 @@ p {
 }
 
 button {
-    display:inline-block;
+    display: inline-block;
     height: 3.8rem;
     margin: 0 0 1rem;
     padding: 0 1.5rem;
@@ -46,7 +45,7 @@ button {
     line-height: 3.8rem;
     color: #333;
     text-align: center;
-    text-shadow: 0.1rem 0.1rem 0 rgba(255,255,255,0.3);
+    text-shadow: 0.1rem 0.1rem 0 rgba(255, 255, 255, 0.3);
     text-decoration: none;
     outline: none;
 }

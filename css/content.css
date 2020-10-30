@@ -1,39 +1,69 @@
+#content {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10vw;
+    background-image: url("../img/guitar-hand.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
 li.cordas {
-
-display:inline-block;
-width:15%;
-padding-top:1em;
-padding-bottom:1em;
-text-align:center;
-vertical-align:middle;
-font-size:100%;
-font-family: "Avant Garde" , "Century Gothic", "AppleGothic", sans-serif;
-border-bottom:1px solid #B8B8E6;
-text-shadow:2px 2px #CBCBEC;
-transition:background-color 0.5s;
+    display: inline-block;
+    width: 15px;
+    height: 250px;
+    position: relative;
+    top: 280px;
+    left: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 100%;
+    background-color: rgba(177, 177, 177, 0.5);
+    transition: background-color 0.5s;
+    cursor: pointer;
 }
 
-li.cordas:active{
-background-color:#CBCBEC;
-text-shadow:2px 2px #A2A2BD;
+li.cordas::after {
+    content: "|";
+    position: relative;
+    display: inline-block;
+    top: 15px;
+    left: -5px;
+    background-color: rgba(177, 177, 177, 0.5);
+    height: 250px;
+    width: 5px;
+    text-shadow: 2px 2px #CBCBEC;
+    transition: background-color 0.5s;
 }
 
-button#play{
-display:inline-block;
-padding:0.5em;
-height:40%;
-vertical-align:middle;
-border:1px solid #B8B8E6;
-margin-top:10%;
-margin-bottom:10%;
+li.cordas:active {
+    /*background-color: #CBCBEC;
+    text-shadow: 2px 2px #A2A2BD;*/
 }
-button#play:active{
-background-color:#CBCBEC
+
+button#play {
+    display: inline-block;
+    padding: 0.5em;
+    height: 40%;
+    vertical-align: middle;
+    border: 1px solid #B8B8E6;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
-button#repeat{
-transition:background-color 0.5s;
-} span{
- font-family: "Avant Garde" , "Century Gothic", "AppleGothic", sans-serif;
-text-shadow:1px 1px #A2A2BD;
-font-size:1.2em;
-}		
+
+button#play:active {
+    background-color: #CBCBEC
+}
+
+button#repeat {
+    transition: background-color 0.5s;
+}
+
+span {
+    font-family: "Avant Garde", "Century Gothic", "AppleGothic", sans-serif;
+    text-shadow: 1px 1px #A2A2BD;
+    font-size: 1.2em;
+}
